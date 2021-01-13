@@ -43,4 +43,7 @@ git remote add origin "https://github.com/AiguangLi/JavaScriptBeginner.git"
 ```shell
 git push --set-upstream origin master
 ```
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
