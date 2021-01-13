@@ -44,3 +44,18 @@ git remote add origin "https://github.com/AiguangLi/JavaScriptBeginner.git"
 git push --set-upstream origin master
 ```
 
+- 切换分支
+
+```shell
+git checkout main
+```
+
+- `git merge master`提示*refusing to merge unrelated histories*的解决办法
+
+原因是两个仓库没有关联，可以在需要合并的分支（main)上拉取master分支代码，并允许历史不关联。
+
+```shell
+git pull origin master --allow-unrelated-histories
+```
+
+之后就可以合并代码了。
