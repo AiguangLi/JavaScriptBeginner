@@ -5,6 +5,7 @@
 
 ```json
 {
+    //...
     "git.path": "C:/Program Files/Git/bin/git.exe",
     "terminal.integrated.shell.windows": "C:/Program Files/Git/bin/bash.exe",
     "git.autofetch": true
@@ -42,4 +43,3 @@ git remote add origin "https://github.com/AiguangLi/JavaScriptBeginner.git"
 ```shell
 git push --set-upstream origin master
 ```
-
