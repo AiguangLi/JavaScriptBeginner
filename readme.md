@@ -20,7 +20,7 @@ git config --global user.email "you@example.com"
 git config --global user.password "your password"
 ```
 
-- 添加变动到仓库
+- 添加变动到仓库(git add <file>也可以指定文件)
 
 ```shell
 git add .
