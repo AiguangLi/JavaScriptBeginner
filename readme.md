@@ -5,7 +5,6 @@
 
 ```json
 {
-    //...
     "git.path": "C:/Program Files/Git/bin/git.exe",
     "terminal.integrated.shell.windows": "C:/Program Files/Git/bin/bash.exe",
     "git.autofetch": true
