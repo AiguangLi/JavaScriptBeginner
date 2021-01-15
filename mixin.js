@@ -1,8 +1,3 @@
-// 通过Object.assign实现对象组合
-const mixin = (target, ...sources) => {
-    Object.assign(target, ...sources);
-};
-
 const canEat = {
     eat: function () {
         this.hunger--;
